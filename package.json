@@ -1,0 +1,17 @@
+{
+  "name": "reverseWords",
+  "version": "1.0.0",
+  "description": "first codewars exercise",
+  "main": "main.ts",
+  "author": "Boris Kuznetsov",
+  "license": "MIT",
+  "volta": {
+    "node": "16.14.2"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "ts-node": "^10.7.0",
+    "tsc": "^2.0.4",
+    "typescript": "^4.6.3"
+  }
+}
