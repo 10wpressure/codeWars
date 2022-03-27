@@ -3,7 +3,7 @@
 
 const input: string[] = [`This is an example!`, `double  spaces`];
 
-const reverse = (input: string): string => {
+export const reverse = (input: string): string => {
   const words: string[] = input.split(` `)
   const reverseWords: string[] = words.map((word) => word.split(``).reverse().join(''));
   return reverseWords.join(` `)
